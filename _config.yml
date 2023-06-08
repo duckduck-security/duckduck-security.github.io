@@ -1,1 +1,22 @@
+# Site settings
+title: DuckDuckSecurity
+description: Comprehensive solution for holistic protection.
+theme: jekyll-theme-minimal
+
+# GitHub Pages settings
+remote_theme: "username/repo" # If using a custom theme hosted on GitHub
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude files/folders from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
